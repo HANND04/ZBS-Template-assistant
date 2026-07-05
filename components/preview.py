@@ -11,7 +11,7 @@ def clean_text_for_html(text):
     return escaped.replace('\n', '<br />')
 
 def render_preview(parsed_template):
-    st.markdown("<h3 style='text-align: center;'>📱 Giao diện xem trước tin nhắn</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='text-align: center;'>Giao diện xem trước tin nhắn</h3>", unsafe_allow_html=True)
     
     if parsed_template:
         root_data = parsed_template.get('root', {}) if 'root' in parsed_template else parsed_template

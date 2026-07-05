@@ -19,23 +19,23 @@ INDUSTRY_OPTIONS = [
 ]
 
 def render_sidebar():
-    st.sidebar.title("⚙️ Cấu hình Checker")
+    st.sidebar.title("Cấu hình Checker")
     
     api_key_input = st.sidebar.text_input(
-        "🔑 Gemini API Key",
+        "Gemini API Key",
         value=os.environ.get("GEMINI_API_KEY", ""),
         type="password",
         help="Nhập Gemini API Key để kiểm duyệt tự động các lỗi chính tả, văn phong, nội dung cấm và nhóm ngành đặc biệt."
     )
     
     selected_tag_label = st.sidebar.selectbox(
-        "🏷️ Loại Tag của mẫu tin nhắn",
+        "Loại Tag của mẫu tin nhắn",
         options=list(TAG_OPTIONS.keys())
     )
     selected_tag = TAG_OPTIONS[selected_tag_label]
     
     selected_industry = st.sidebar.selectbox(
-        "🏥 Nhóm ngành đặc biệt",
+        "Nhóm ngành đặc biệt",
         options=INDUSTRY_OPTIONS,
         help="Zalo quy định rất nghiêm ngặt với một số ngành nhạy cảm. Chọn đúng ngành của bạn để checker kiểm duyệt các câu tuyên bố bắt buộc (disclaimers) hoặc lệnh cấm."
     )

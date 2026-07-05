@@ -2,7 +2,7 @@ import streamlit as st
 
 def render_rule_map():
     st.markdown("""
-    ### 📜 Tóm tắt bộ quy định duyệt mẫu ZBS Zalo
+    ### Tóm tắt bộ quy định duyệt mẫu ZBS Zalo
     
     #### 1. Quy định về Tham số (Parameters)
     - Phải được đặt trong cụm `<...>`, không dùng dấu tiếng Việt, không dùng khoảng trắng hay dấu gạch ngang (`-`).

@@ -28,7 +28,7 @@ inject_styles()
 # Render header banner
 st.markdown("""
 <div class="header-container">
-    <h1>🛡️ ZBS Template Moderation Checker</h1>
+    <h1>ZBS Template Moderation Checker</h1>
     <p>Hỗ trợ doanh nghiệp kiểm duyệt nội dung mẫu tin nhắn Zalo Business (ZBS) tự động trước khi gửi phê duyệt.</p>
 </div>
 """, unsafe_allow_html=True)
@@ -83,9 +83,9 @@ with col_editor:
         
         # Tabs layout for report results
         tab_results, tab_data, tab_rules = st.tabs([
-            "🔍 Kết quả Kiểm duyệt (Moderation)",
-            "📊 Tham số & Dữ liệu Trích xuất",
-            "📖 Bản đồ Quy định duyệt mẫu (Rule Map)"
+            "Kết quả Kiểm duyệt (Moderation)",
+            "Tham số & Dữ liệu Trích xuất",
+            "Bản đồ Quy định duyệt mẫu (Rule Map)"
         ])
         
         with tab_results:
@@ -102,14 +102,14 @@ with col_editor:
             else:
                 st.markdown("""
                 <div class="success-box">
-                    ✅ Kiểm duyệt cơ bản: Không phát hiện lỗi cấu trúc, tham số hoặc liên kết cấm!
+                    Kiểm duyệt cơ bản: Không phát hiện lỗi cấu trúc, tham số hoặc liên kết cấm!
                 </div>
                 """, unsafe_allow_html=True)
                 
             st.markdown("---")
             st.markdown("#### 2. Bộ kiểm duyệt AI (Gemini AI Support)")
             
-            run_ai = st.button("🚀 Chạy kiểm duyệt bằng AI")
+            run_ai = st.button("Chạy kiểm duyệt bằng AI")
             
             # Input key identifier to check session state cache
             input_state_key = str(parsed_template) + selected_tag + selected_industry
