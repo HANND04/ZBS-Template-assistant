@@ -54,10 +54,11 @@ def deconstruct_template(template):
         elif sec_type == 'buttons':
             items = sec_val.get('items', [])
             for btn in items:
+                click_info = btn.get('click') or {}
                 res['buttons'].append({
-                    'text': btn.get('text', ''),
-                    'action': btn.get('click', {}).get('action', ''),
-                    'data': btn.get('click', {}).get('data', '')
+                    'text': btn.get('text', '') or '',
+                    'action': click_info.get('action', '') or '',
+                    'data': click_info.get('data', '') or ''
                 })
         elif sec_type == 'carousel':
             cards = sec_val.get('c_card', [])
@@ -67,17 +68,17 @@ def deconstruct_template(template):
                     itype = list(item.keys())[0]
                     ival = item[itype]
                     if itype == 'c_image':
-                        res['banner_url'] = ival
+                        res['banner_url'] = ival or ''
                     elif itype == 'c_title':
-                        res['title_text'] = ival
+                        res['title_text'] = ival or ''
                     elif itype == 'c_paragraph':
-                        res['body_text'] = ival
+                        res['body_text'] = ival or ''
                     elif itype == 'c_buttons':
                         for btn in ival:
                             res['buttons'].append({
-                                'text': btn.get('c_text', ''),
-                                'action': btn.get('c_action', ''),
-                                'data': btn.get('c_data', '')
+                                'text': btn.get('c_text', '') or '',
+                                'action': btn.get('c_action', '') or '',
+                                'data': btn.get('c_data', '') or ''
                             })
                             
     return res

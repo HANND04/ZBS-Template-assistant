@@ -140,6 +140,8 @@ def validate_body_text(text):
     return True, ""
 
 def validate_table_key(key, val):
+    key = key or ""
+    val = val or ""
     if not key.strip() and val.strip():
         return False, "Tên trường không được để trống khi có giá trị."
     if key.strip():
@@ -152,6 +154,8 @@ def validate_table_key(key, val):
     return True, ""
 
 def validate_table_value(key, val):
+    key = key or ""
+    val = val or ""
     if key.strip() and not val.strip():
         return False, "Giá trị không được để trống khi có tên trường."
     if val.strip():
@@ -164,11 +168,15 @@ def validate_table_value(key, val):
     return True, ""
 
 def validate_button_text(btn_text, btn_val, btn_idx):
+    btn_text = btn_text or ""
+    btn_val = btn_val or ""
     if not btn_text.strip() and btn_val.strip():
         return False, f"Chữ hiển thị của Nút {btn_idx} không được để trống khi có giá trị."
     return True, ""
 
 def validate_button_value(btn_text, btn_action, btn_val, btn_idx, selected_tag):
+    btn_text = btn_text or ""
+    btn_val = btn_val or ""
     if btn_text.strip() and not btn_val.strip():
         return False, f"Giá trị (URL/SĐT/Mã copy) của Nút {btn_idx} không được để trống."
     
