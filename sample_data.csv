@@ -1,0 +1,1049 @@
+Format Json (Link ảnh: https://vngms.sharepoint.com/:i:/s/ZBSProduct/IQCAQ1L_K_AJQYHUI-nOE6aTAQL2sXOgiyOS_vOos1lwo0M?e=LAe4QR ),,Loại template,Ảnh demo,Json data
+,,Template payment (588946),,"""root"":{7 items
+""oa_id"":string""278780515""
+""3rd_config"":string""{""qr_wallet"": {""url"": ""https://help.oa.zalo.me/gw/payment""}}""
+""extend_footers"":NULL
+""footer"":NULL
+""3rd_info"":string""{""save_qr_wallet"":{""button_id"":null,""action_type"":""open_zpayment"",""action_data"":{""amount"":""<price>"",""bin"":""970418"",""source"":""Fiza"",""accountNumber"":""<MaKH>"",""message"":""<MaKH>"",""trackingId"":""<$requestId>""}},""more_utility"":{""type"":""payment"",""data"":{""amount"":""<price>"",""accountName"":""CÔNG TY CỔ PHẦN CÔNG NGHỆ & TRUYỀN THÔNG VIỆT NAM\t"",""bankName"":""Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)"",""accountNumber"":""<MaKH>"",""message"":""<MaKH>""}}}""
+""extend_info"":string""278780515""
+""sections"":[7 items
+0:{1 item
+""banner"":{3 items
+""img"":{3 items
+""light"":string""src:https://stc-oa.zdn.vn/uploads/2026/06/04/a0ae2e7f0b13968e126e3f6eed112941.png;""
+""dark"":string""src:https://stc-oa.zdn.vn/uploads/2026/06/04/1f3cd37a80720fcecff906d85beafcea.png""
+""url"":string""https://stc-oa.zdn.vn/uploads/2026/06/04/a0ae2e7f0b13968e126e3f6eed112941.png""
+}
+""pos"":string""banner_0""
+""show"":booltrue
+}
+}
+1:{1 item
+""banner"":{5 items
+""pos"":string""banner_title_1""
+""show"":booltrue
+""icon"":NULL
+""title"":{2 items
+""text"":string""Thông báo Cước dịch vụ viễn thông (cước trả sau): ""
+""type"":string""text-title""
+}
+""click"":NULL
+}
+}
+2:{1 item
+""banner"":{5 items
+""pos"":string""banner_title_2""
+""show"":booltrue
+""icon"":NULL
+""title"":{2 items
+""text"":string""Xin trân trọng cảm ơn Quý khách đã tin tưởng và sử dụng dịch vụ của VNTT. Chúng tôi xin thông báo chi tiết cước dịch vụ như sau: ""
+""type"":string""text-normal""
+}
+""click"":NULL
+}
+}
+3:{1 item
+""map_info"":{3 items
+""pos"":string""map_info_3""
+""show_all"":booltrue
+""items"":[5 items
+0:{4 items
+""pos"":string""row_0_3""
+""show"":booltrue
+""value"":{2 items
+""type"":string""table-effect-default""
+""title"":{1 item
+""text"":string""<TenKH>""
+}
+}
+""key"":{1 item
+""title"":{1 item
+""text"":string""Khách hàng""
+}
+}
+}
+1:{4 items
+""pos"":string""row_1_3""
+""show"":booltrue
+""value"":{2 items
+""type"":string""table-effect-default""
+""title"":{1 item
+""text"":string""<MaKH>""
+}
+}
+""key"":{1 item
+""title"":{1 item
+""text"":string""Mã định danh""
+}
+}
+}
+2:{4 items
+""pos"":string""row_2_3""
+""show"":booltrue
+""value"":{2 items
+""type"":string""table-effect-default""
+""title"":{1 item
+""text"":string""<price>""
+}
+}
+""key"":{1 item
+""title"":{1 item
+""text"":string""Số tiền""
+}
+}
+}
+3:{4 items
+""pos"":string""row_3_3""
+""show"":booltrue
+""value"":{2 items
+""type"":string""table-effect-default""
+""title"":{1 item
+""text"":string""<thang>""
+}
+}
+""key"":{1 item
+""title"":{1 item
+""text"":string""Kỳ thanh toán""
+}
+}
+}
+4:{4 items
+""pos"":string""row_4_3""
+""show"":booltrue
+""value"":{2 items
+""type"":string""table-effect-default""
+""title"":{1 item
+""text"":string""<LuuY>""
+}
+}
+""key"":{1 item
+""title"":{1 item
+""text"":string""Lưu ý""
+}
+}
+}
+]
+}
+}
+4:{1 item
+""open_utility"":{5 items
+""top"":{3 items
+""pos"":string""pos_top_open_utility_transfer_4""
+""contents"":{3 items
+""pos"":string""pos_top_open_utility_transfer_content_4""
+""show"":booltrue
+""items"":[4 items
+0:{3 items
+""pos"":string""pos_top_open_utility_transfer_map_info_item_4_1""
+""text"":string""Số tiền thanh toán""
+""type"":string""text-title-payment""
+}
+1:{3 items
+""pos"":string""pos_top_open_utility_transfer_map_info_item_4_2""
+""text"":string""<price>đ""
+""type"":string""text-money""
+}
+2:{3 items
+""pos"":string""pos_top_open_utility_transfer_map_info_item_4_3""
+""text"":string""Ngân hàng TMCP Đầu tư và Phát triển Việt Nam (BIDV)""
+""type"":string""text-subtext""
+}
+3:{3 items
+""pos"":string""pos_top_open_utility_transfer_map_info_item_4_4""
+""text"":string""Tài khoản: <MaKH> - CÔNG TY CỔ PHẦN CÔNG NGHỆ & TRUYỀN THÔNG VIỆT NAM ""
+""type"":string""text-subtext""
+}
+]
+}
+""show"":booltrue
+}
+""highlight_box"":booltrue
+""pos"":string""pos_open_utility_payment_4""
+""show"":booltrue
+""type"":string""payment""
+}
+}
+5:{1 item
+""buttons"":{2 items
+""items"":[2 items
+0:{3 items
+""text"":string""Thanh toán ngay""
+""type"":string""button-primary""
+""click"":{3 items
+""data"":string""""
+""action"":string""PAYMENT""
+""id"":string""0""
+}
+}
+1:{3 items
+""text"":string""Quan tâm OA""
+""type"":string""button-neutral""
+""click"":{4 items
+""data"":string""https://oa.zalo.me/1654516868936382648""
+""action"":string""action.open.inapp""
+""id"":string""1""
+""data_detail"":string""{""url"":""https://oa.zalo.me/1654516868936382648"",""h5_src_open"":1110}""
+}
+}
+]
+""show_all"":booltrue
+}
+}
+6:{1 item
+""custom_section"":{4 items
+""style_dark"":string"".param{color:#F2F3F5}""
+""style_light"":string"".param{font-weight: medium;color:#001A33}""
+""show"":boolfalse
+""html"":string""""
+}
+}
+]
+}"
+,,Template voucher (588898),,"""root"":{7 items
+""oa_id"":string""321386071""
+""extend_info"":string""321386071""
+""sections"":[8 items
+0:{1 item
+""oa_info"":{7 items
+""show"":booltrue
+""vertical"":booltrue
+""horizontal"":boolfalse
+""pos"":string""1""
+""img"":{3 items
+""url"":string""https://stc-oa.zdn.vn/uploads/2026/04/24/6b1a9e8694c66f2dec5638a6f093d85e.png""
+""light"":string""width: 60%; data-width:400;data-height:96; margin-bottom:0dp;""
+""dark"":string""src:https://stc-oa.zdn.vn/uploads/2026/04/24/a421788ae61f24b2c3dd4ea6a8b08546.png""
+}
+""title"":NULL
+""des"":NULL
+}
+}
+1:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""2""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Pharmacity tặng bạn mã giảm giá độc quyền""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-title""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+2:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""3""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Đón hè sang ưu đãi rộn ràng, Pharmacity tặng bạn mã giảm <span class=""param""><coupon_value></span> VNĐ áp dụng cho đơn từ <span class=""param""><min_redeem></span> VNĐ để mua sắm trực tuyến các sản phẩm chính hãng, giá tốt.""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+3:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""4""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Cần là có! Pharmacity giao ngay, miễn phí vận chuyển cho mọi đơn hàng""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+4:{1 item
+""map_info"":{2 items
+""show_all"":booltrue
+""items"":[2 items
+0:{5 items
+""show"":booltrue
+""pos"":string""5""
+""row"":NULL
+""key"":{2 items
+""title"":{5 items
+""text"":string""Mã thành viên:""
+""light"":string""""
+""dark"":string""""
+""type"":NULL
+""wrapper"":NULL
+}
+""wrapper"":NULL
+}
+""value"":{3 items
+""wrapper"":{2 items
+""light"":string""""
+""dark"":string""""
+}
+""title"":{5 items
+""text"":string""<CustID>""
+""light"":string""""
+""dark"":string""""
+""type"":NULL
+""wrapper"":NULL
+}
+""type"":NULL
+}
+}
+1:{5 items
+""show"":booltrue
+""pos"":string""6""
+""row"":NULL
+""key"":{2 items
+""title"":{5 items
+""text"":string""Hạng thành viên:""
+""light"":string""""
+""dark"":string""""
+""type"":NULL
+""wrapper"":NULL
+}
+""wrapper"":NULL
+}
+""value"":{3 items
+""wrapper"":{2 items
+""light"":string""""
+""dark"":string""""
+}
+""title"":{5 items
+""text"":string""<CustLevel>""
+""light"":string""""
+""dark"":string""""
+""type"":NULL
+""wrapper"":NULL
+}
+""type"":NULL
+}
+}
+]
+}
+}
+5:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""7""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Mã giảm giá KHÔNG áp dụng cho thuốc, các sản phẩm giảm giá từ 40% trở lên, mua 1 tặng 1, sản phẩm thứ 2 giá 1.000đ, tã, sữa, payoo, thẻ điện thoại, phiếu mua hàng Pharmacity và các sản phẩm thuộc một số thương hiệu (Xem chi tiết bên dưới).""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+6:{1 item
+""open_utility"":{8 items
+""highlight_box"":booltrue
+""type"":string""voucher""
+""pos"":string""open_utility_8""
+""show"":booltrue
+""divider"":NULL
+""wrapper"":NULL
+""top"":{5 items
+""pos"":string""open_utility_top_9""
+""show"":booltrue
+""wrapper"":NULL
+""contents"":{7 items
+""pos"":string""open_utility_top_content_11""
+""show"":booltrue
+""wrapper"":NULL
+""items"":[3 items
+0:{3 items
+""pos"":string""open_utility_top_content_item_12""
+""text"":string""Ưu đãi: <coupon_value> VNĐ.""
+""type"":string""text-title""
+}
+1:{3 items
+""pos"":string""open_utility_top_content_item_13""
+""text"":string""Áp dụng cho đơn hàng từ <min_redeem> VNĐ""
+""type"":string""text-normal""
+}
+2:{3 items
+""pos"":string""open_utility_top_content_item_14""
+""text"":string""HSD: <expiredDate>""
+""type"":string""text-normal""
+}
+]
+""map_info"":NULL
+""divider_line"":NULL
+""card_transport"":NULL
+}
+""action"":NULL
+}
+""bottom"":NULL
+}
+}
+7:{1 item
+""buttons"":{2 items
+""show_all"":booltrue
+""items"":[2 items
+0:{5 items
+""pos"":int15
+""text"":string""Xem mã ưu đãi""
+""type"":string""button-primary""
+""click"":{5 items
+""id"":string""0""
+""click_extend_info"":string""""
+""action"":string""VIEW_DETAILS""
+""data"":NULL
+""data_detail"":NULL
+}
+""icon_info"":NULL
+}
+1:{5 items
+""pos"":int16
+""text"":string""Kiểm tra và dùng mã ngay!""
+""type"":string""button-neutral""
+""click"":{5 items
+""id"":string""1""
+""click_extend_info"":string""""
+""action"":string""action.open.inapp""
+""data"":string""https://www.pharmacity.vn/qua-tang-voucher.lp?utm_source=zns&utm_medium=paid_awareness&utm_content=202606_de_voucher_hang-thanh-vien""
+""data_detail"":string""{""h5_src_open"":1113,""url"":""https://www.pharmacity.vn/qua-tang-voucher.lp?utm_source=zns&utm_medium=paid_awareness&utm_content=202606_de_voucher_hang-thanh-vien""}""
+}
+""icon_info"":NULL
+}
+]
+}
+}
+]
+""extend_footers"":NULL
+""footer"":NULL
+""3rd_info"":string""{""save_qr_wallet"":{""button_id"":null,""action_type"":""save_voucher_qr_wallet"",""action_data"":{""expiredAt"":""<expiredDate>"",""condition"":""Áp dụng cho đơn hàng từ <min_redeem> VNĐ"",""code"":""<voucher_code>"",""display"":""bar_code"",""validAt"":"""",""name"":""Ưu đãi: <coupon_value> VNĐ."",""remindBefore"":""86400000"",""merchantOaId"":""321386071"",""merchantLogoUrl"":""https://s160-ava-talk.zadn.vn/0/e/a/e/12/160/2fc7f0a949c2853a5ea7f852ba9ea025.jpg"",""type"":""voucher"",""actions"":[{""cta"":""Kiểm tra và dùng mã ngay!"",""type"":""url"",""value"":""https://www.pharmacity.vn/qua-tang-voucher.lp?utm_source=zns&utm_medium=paid_awareness&utm_content=202606_de_voucher_hang-thanh-vien""}],""merchantName"":""Nhà thuốc Pharmacity""}},""more_utility"":{""type"":""voucher"",""data"":{""condition"":""Áp dụng cho đơn hàng từ <min_redeem> VNĐ"",""code"":""<voucher_code>"",""name"":""Ưu đãi: <coupon_value> VNĐ."",""expiry"":""HSD: <expiredDate>""}}}""
+""3rd_config"":string""{""qr_wallet"": {""url"": ""https://help.oa.zalo.me/gw/qr-wallet""}}""
+}"
+,,"Template Rating
+(584900)",,"""root"":{7 items
+""oa_id"":string""240480896""
+""3rd_config"":NULL
+""extend_footers"":NULL
+""footer"":NULL
+""3rd_info"":NULL
+""extend_info"":string""240480896""
+""sections"":[7 items
+0:{1 item
+""banner"":{5 items
+""img"":{3 items
+""light"":string""src:https://stc-oa.zdn.vn/uploads/2026/05/26/f9d4fe0b9f02de3c2165ce1d4f852028.png;""
+""dark"":string""src:https://stc-oa.zdn.vn/uploads/2026/05/26/916b6b01d21c161c1ed3e441dc2acabc.png""
+""url"":string""https://stc-oa.zdn.vn/uploads/2026/05/26/f9d4fe0b9f02de3c2165ce1d4f852028.png""
+}
+""pos"":string""1""
+""show"":booltrue
+""title"":NULL
+""click"":NULL
+}
+}
+1:{1 item
+""banner"":{5 items
+""img"":NULL
+""pos"":string""2""
+""show"":booltrue
+""title"":{8 items
+""light"":string""""
+""icon"":NULL
+""dark"":string""""
+""wrapper"":NULL
+""id"":string""""
+""text"":string""Nội dung tin đăng có đúng không? ""
+""type"":string""text-title""
+""click"":NULL
+}
+""click"":NULL
+}
+}
+2:{1 item
+""banner"":{5 items
+""img"":NULL
+""pos"":string""3""
+""show"":booltrue
+""title"":{8 items
+""light"":string""""
+""icon"":NULL
+""dark"":string""""
+""wrapper"":NULL
+""id"":string""""
+""text"":string""Xin cảm ơn Quý khách hàng <span class=""param""><customer_name></span> (có 4 số điện thoại cuối: <span class=""param""><last4digitphone></span>) đã sử dụng Batdongsan.com.vn. Để khảo sát độ chính xác tin đăng, mong bạn dành một ít thời gian đánh giá chất lượng tin đăng bạn đã liên hệ ""
+""type"":string""text-normal""
+""click"":NULL
+}
+""click"":NULL
+}
+}
+3:{1 item
+""map_info"":{2 items
+""show_all"":booltrue
+""items"":[3 items
+0:{5 items
+""pos"":string""4""
+""show"":booltrue
+""row"":NULL
+""value"":{3 items
+""wrapper"":NULL
+""title"":{5 items
+""light"":string""""
+""dark"":string""""
+""wrapper"":NULL
+""text"":string""<listing_title>""
+""type"":NULL
+}
+""type"":string""table-effect-default""
+}
+""key"":{2 items
+""wrapper"":NULL
+""title"":{5 items
+""light"":string""""
+""dark"":string""""
+""wrapper"":NULL
+""text"":string""Tin đăng: ""
+""type"":NULL
+}
+}
+}
+1:{5 items
+""pos"":string""5""
+""show"":booltrue
+""row"":NULL
+""value"":{3 items
+""wrapper"":NULL
+""title"":{5 items
+""light"":string""""
+""dark"":string""""
+""wrapper"":NULL
+""text"":string""<price> ""
+""type"":NULL
+}
+""type"":string""table-effect-default""
+}
+""key"":{2 items
+""wrapper"":NULL
+""title"":{5 items
+""light"":string""""
+""dark"":string""""
+""wrapper"":NULL
+""text"":string""Giá: ""
+""type"":NULL
+}
+}
+}
+2:{5 items
+""pos"":string""6""
+""show"":booltrue
+""row"":NULL
+""value"":{3 items
+""wrapper"":NULL
+""title"":{5 items
+""light"":string""""
+""dark"":string""""
+""wrapper"":NULL
+""text"":string""<seller_name> ""
+""type"":NULL
+}
+""type"":string""table-effect-default""
+}
+""key"":{2 items
+""wrapper"":NULL
+""title"":{5 items
+""light"":string""""
+""dark"":string""""
+""wrapper"":NULL
+""text"":string""Môi giới: ""
+""type"":NULL
+}
+}
+}
+]
+}
+}
+4:{1 item
+""rating"":{4 items
+""show"":booltrue
+""wrapper"":NULL
+""stars"":[5 items
+0:{3 items
+""light"":string""""
+""dark"":string""""
+""click"":{5 items
+""click_extend_info"":string""""
+""data"":string""https://rating-zns.oa.zalo.me/rating/8buqpqna?star=1&requestId=<$zReqId>&requestTime=<$zReqTime>""
+""action"":string""action.open.inapp""
+""id"":string""s1""
+""data_detail"":NULL
+}
+}
+1:{3 items
+""light"":string""""
+""dark"":string""""
+""click"":{5 items
+""click_extend_info"":string""""
+""data"":string""https://rating-zns.oa.zalo.me/rating/8buqpqna?star=2&requestId=<$zReqId>&requestTime=<$zReqTime>""
+""action"":string""action.open.inapp""
+""id"":string""s2""
+""data_detail"":NULL
+}
+}
+2:{3 items
+""light"":string""""
+""dark"":string""""
+""click"":{5 items
+""click_extend_info"":string""""
+""data"":string""https://rating-zns.oa.zalo.me/rating/8buqpqna?star=3&requestId=<$zReqId>&requestTime=<$zReqTime>""
+""action"":string""action.open.inapp""
+""id"":string""s3""
+""data_detail"":NULL
+}
+}
+3:{3 items
+""light"":string""""
+""dark"":string""""
+""click"":{5 items
+""click_extend_info"":string""""
+""data"":string""https://rating-zns.oa.zalo.me/rating/8buqpqna?star=4&requestId=<$zReqId>&requestTime=<$zReqTime>""
+""action"":string""action.open.inapp""
+""id"":string""s4""
+""data_detail"":NULL
+}
+}
+4:{3 items
+""light"":string""""
+""dark"":string""""
+""click"":{5 items
+""click_extend_info"":string""""
+""data"":string""https://rating-zns.oa.zalo.me/rating/8buqpqna?star=5&requestId=<$zReqId>&requestTime=<$zReqTime>""
+""action"":string""action.open.inapp""
+""id"":string""s5""
+""data_detail"":NULL
+}
+}
+]
+""type"":NULL
+}
+}
+5:{1 item
+""buttons"":{2 items
+""show_all"":booltrue
+""items"":[1 item
+0:{5 items
+""pos"":int7
+""text"":string""Xem tin đăng tại đây ""
+""type"":string""button-neutral""
+""click"":{5 items
+""click_extend_info"":string""""
+""data"":string""https://batdongsan.com.vn/<param>""
+""action"":string""action.open.inapp""
+""id"":string""0""
+""data_detail"":string""{""url"":""https://batdongsan.com.vn/<param>"",""h5_src_open"":1113}""
+}
+""icon_info"":NULL
+}
+]
+}
+}
+6:{1 item
+""custom_section"":{5 items
+""pos"":int8
+""style_dark"":string"".param{color:#F2F3F5}""
+""style_light"":string"".param{font-weight: medium;color:#001A33}""
+""show"":boolfalse
+""html"":string""""
+}
+}
+]
+}"
+,,"Template xác thực
+(589136)",,"""root"":{7 items
+""oa_id"":string""455650915""
+""extend_info"":string""455650915""
+""sections"":[5 items
+0:{1 item
+""oa_info"":{7 items
+""show"":booltrue
+""vertical"":booltrue
+""horizontal"":boolfalse
+""pos"":string""1""
+""img"":{3 items
+""url"":string""https://stc-oa.zdn.vn/uploads/2026/06/04/0069b989baf6034ac0ea765a73ccb7c3.png""
+""light"":string""width: 60%; data-width:400;data-height:96; margin-bottom:0dp;""
+""dark"":string""src:https://stc-oa.zdn.vn/uploads/2026/06/04/b37515e3bf0cbc88b65cb909ee75549f.png""
+}
+""title"":NULL
+""des"":NULL
+}
+}
+1:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""2""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Mã xác minh của bạn là""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-title""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+2:{1 item
+""banner"":{3 items
+""show"":booltrue
+""pos"":NULL
+""title"":{3 items
+""text"":string""<otp>""
+""type"":string""text-otp-blue""
+""click"":{5 items
+""id"":string""btn-copy""
+""click_extend_info"":string""<otp>""
+""action"":string""action.copy.clipboard""
+""data"":string""{""content"":""<otp>""}""
+""data_detail"":NULL
+}
+}
+}
+}
+3:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""3""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Tuyệt đối KHÔNG chia sẻ mã xác thực cho bất kỳ ai dưới bất kỳ hình thức nào. Mã xác thực có hiệu lực trong 5 phút.""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+4:{1 item
+""buttons"":{2 items
+""show_all"":booltrue
+""items"":[1 item
+0:{5 items
+""pos"":int4
+""text"":string""Sao chép mã""
+""type"":string""button-primary""
+""click"":{5 items
+""id"":string""0""
+""click_extend_info"":string""""
+""action"":string""action.copy.clipboard""
+""data"":string""{""content"":""<otp>""}""
+""data_detail"":NULL
+}
+""icon_info"":NULL
+}
+]
+}
+}
+]
+""extend_footers"":NULL
+""footer"":NULL
+""3rd_info"":NULL
+""3rd_config"":NULL
+}"
+,,"Template Carousel
+(570667)",,"""root"":{1 item
+""sections"":[4 items
+0:{1 item
+""logo"":{2 items
+""light"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/3aa62970f3ffbd96974959f99d38471c.png""
+""dark"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/646693030939037ec77400b4a2e1c834.png""
+}
+}
+1:{1 item
+""title"":string""Giải pháp tin nhắn thương hiệu toàn kênh - tăng tương tác, tăng doanh thu (TEST)""
+}
+2:{1 item
+""paragraph"":string""Xin chào <span class=""param""><name></span>, SVoucher mang đến bộ giải pháp tin nhắn thương hiệu hiệu đa kênh giúp doanh nghiệp tiếp theo đúng khách hàng, đúng thời điểm - với chi phí tối ưu nhất. Khám phá ngay để bùng nổ thu tháng này!""
+}
+3:{1 item
+""carousel"":{1 item
+""c_card"":[5 items
+0:{1 item
+""c_items"":[4 items
+0:{1 item
+""c_image"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/c204f4bee1795c412e6c4e9389816493.png""
+}
+1:{1 item
+""c_title"":string""Tin nhắn ZBS (TEST)""
+}
+2:{1 item
+""c_paragraph"":string""Gửi tin nhắn đề người dùng qua Zalo, kèm theo hình ảnh và nút CTA. Tương tác 2 chiều, tối ưu chi phí vượt trội.""
+}
+3:{1 item
+""c_buttons"":[1 item
+0:{5 items
+""c_id"":string""btn-primary_8e70eaa7-e9fa-47d0-a752-df1eddb154a0""
+""c_text"":string""Nhận tư vấn miễn phí""
+""c_data"":string""{""h5_src_open"":1110,""url"":""https://oa.zalo.me/4097311281936189049""}""
+""c_type"":string""btn-primary""
+""c_action"":string""action.open.inapp""
+}
+]
+}
+]
+}
+1:{1 item
+""c_items"":[4 items
+0:{1 item
+""c_image"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/45b7ebbb96b94f5cdb4d538841687108.png""
+}
+1:{1 item
+""c_title"":string""Tin nhắn SMS (TEST)""
+}
+2:{1 item
+""c_paragraph"":string""Là một dịch vụ nhắn tin văn bản, cho phép trao đổi tin nhắn văn bản ngắn giữa các thiết bị di động, Tiếp cận 100% thuê bao, không cần internet.""
+}
+3:{1 item
+""c_buttons"":[1 item
+0:{5 items
+""c_id"":string""btn-primary_ca32e70a-cd54-4689-99b5-46d3f9346bc9""
+""c_text"":string""Nhận tư vấn miễn phí""
+""c_data"":string""{""h5_src_open"":1110,""url"":""https://oa.zalo.me/4097311281936189049""}""
+""c_type"":string""btn-primary""
+""c_action"":string""action.open.inapp""
+}
+]
+}
+]
+}
+2:{1 item
+""c_items"":[4 items
+0:{1 item
+""c_image"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/a5afe34dbb774070cd30c80be4d2f622.png""
+}
+1:{1 item
+""c_title"":string""Tin nhắn MMS (TEST)""
+}
+2:{1 item
+""c_paragraph"":string""Cho phép gửi gửi hình ảnh, video, GIF qua mạng di động - nổi bật giữa hàng nghìn tin thông thường. MMS khác SMS ở khả năng hỗ trợ nội dung phong phú và dung lượng lớn hơn, hoạt động trực tiếp qua mạng di động (3G/4G/5G) mà không cần internet hay ứng dụng bên thứ ba như Zalo/Messenger""
+}
+3:{1 item
+""c_buttons"":[1 item
+0:{5 items
+""c_id"":string""btn-primary_c31bbece-03b4-479b-978b-6ac75736047c""
+""c_text"":string""Nhận tư vấn miễn phí""
+""c_data"":string""{""h5_src_open"":1110,""url"":""https://oa.zalo.me/4097311281936189049""}""
+""c_type"":string""btn-primary""
+""c_action"":string""action.open.inapp""
+}
+]
+}
+]
+}
+3:{1 item
+""c_items"":[4 items
+0:{1 item
+""c_image"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/08e74b8773ceda4f2e9a9adf462d7dcc.png""
+}
+1:{1 item
+""c_title"":string""Tin nhắn Viber (TEST)""
+}
+2:{1 item
+""c_paragraph"":string""Là hình thức cho phép Doanh nghiệp có thể gửi tin nhắn đến khách hàng thông qua ứng dụng Viber. Gửi được hình ảnh, video, tệp tin và thanh toán ngay trong app Viber. Tính bảo mật cao, phù hợp tệp khách hàng dùng Viber (văn phòng, quốc tế). Tin nhắn gửi qua ứng dụng Viber với độ dài lên tới 1000 ký tự. Tin nhắn gửi qua ứng dụng Viber với độ dài lên tới 1000 ký tự. Tiết kiệm chi phí gửi tin nhắn từ 20-40% so với tin nhắn thông thường.""
+}
+3:{1 item
+""c_buttons"":[1 item
+0:{5 items
+""c_id"":string""btn-primary_bb12519b-c813-43c8-b967-dc0ef33e48e7""
+""c_text"":string""Nhận tư vấn miễn phí""
+""c_data"":string""{""h5_src_open"":1110,""url"":""https://oa.zalo.me/4097311281936189049""}""
+""c_type"":string""btn-primary""
+""c_action"":string""action.open.inapp""
+}
+]
+}
+]
+}
+4:{1 item
+""c_items"":[4 items
+0:{1 item
+""c_image"":string""https://stc-oa.zdn.vn/uploads/2026/04/21/79e1ff9745ceb71aa4986109d0cf4c0d.png""
+}
+1:{1 item
+""c_title"":string""Tin nhắn RCS (TEST)""
+}
+2:{1 item
+""c_paragraph"":string""Tin nhắn RCS (Rich Communication Services) là giao thức nhắn tin thế hệ mới nâng cấp từ SMS truyền thống, hoạt động trên Android qua Wi-Fi/dữ liệu di động. Được ví như ""SMS thế hệ mới"" trên Android, hỗ trợ nội dung đa phương tiện cao cấp. Trải nghiệm mua sắm, check - in ngay trong app nhắn tin mặc định Android - không cần cài thêm.""
+}
+3:{1 item
+""c_buttons"":[1 item
+0:{5 items
+""c_id"":string""btn-primary_abfc5d57-0e5b-47bb-b0c5-ccf1ca1f7b07""
+""c_text"":string""Nhận tư vấn miễn phí""
+""c_data"":string""{""h5_src_open"":1110,""url"":""https://oa.zalo.me/4097311281936189049""}""
+""c_type"":string""btn-primary""
+""c_action"":string""action.open.inapp""
+}
+]
+}
+]
+}
+]
+}
+}
+]
+}"
+,,"Template tuỳ chỉnh
+(589178)",,"""root"":{7 items
+""oa_id"":string""335584699""
+""extend_info"":string""335584699""
+""sections"":[6 items
+0:{1 item
+""oa_info"":{7 items
+""show"":booltrue
+""vertical"":booltrue
+""horizontal"":boolfalse
+""pos"":string""1""
+""img"":{3 items
+""url"":string""https://stc-oa.zdn.vn/uploads/2026/06/04/1e58bd98c5d120838b461e86c93e1331.png""
+""light"":string""width: 60%; data-width:400;data-height:96; margin-bottom:0dp;""
+""dark"":string""src:https://stc-oa.zdn.vn/uploads/2026/06/04/fab640c8b52b785c21803fa92b87531b.png""
+}
+""title"":NULL
+""des"":NULL
+}
+}
+1:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""2""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Thông báo kết quả xác thực thông tin""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-title""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+2:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""3""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Xin chào quý khách hàng <span class=""param""><customer_name></span>, mã khách hàng <span class=""param""><customer_code></span>""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+3:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""4""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Cảm ơn quý khách hàng đã quan tâm chương trình ""Giảm Đau Đầu"" Vì Xăng Dầu - Mua 04 lốp Bridgestone nhận voucher lên đến 500K. Rất tiếc, kết quả đăng ký tham gia chương trình của quý khách được xác nhận KHÔNG ĐẠT ĐIỀU KIỆN nhận thưởng theo thể lệ chương trình.""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+4:{1 item
+""banner"":{5 items
+""show"":booltrue
+""pos"":string""5""
+""img"":NULL
+""title"":{8 items
+""click"":NULL
+""id"":string""""
+""icon"":NULL
+""text"":string""Quý khách vui lòng kiểm tra lại hóa đơn và thử lại tại Mini App Bridgestone Việt Nam theo hướng dẫn. Trường hợp quý khách có những thắc mắc liên quan đến kết quả, vui lòng để lại tin nhắn qua Zalo OA (tại đây) hoặc fanpage Bridgestone Việt Nam để được hỗ trợ.""
+""light"":string""""
+""dark"":string""""
+""type"":string""text-normal""
+""wrapper"":NULL
+}
+""click"":NULL
+}
+}
+5:{1 item
+""buttons"":{2 items
+""show_all"":booltrue
+""items"":[2 items
+0:{5 items
+""pos"":int6
+""text"":string""Fanpage Bridgestone Việt Nam""
+""type"":string""button-primary""
+""click"":{5 items
+""id"":string""0""
+""click_extend_info"":string""""
+""action"":string""action.open.inapp""
+""data"":string""https://www.facebook.com/Bridgestonetirevietnam/""
+""data_detail"":string""{""h5_src_open"":1118,""url"":""https://www.facebook.com/Bridgestonetirevietnam/""}""
+}
+""icon_info"":NULL
+}
+1:{5 items
+""pos"":int7
+""text"":string""Mini App Bridgestone Việt Nam""
+""type"":string""button-neutral""
+""click"":{5 items
+""id"":string""1""
+""click_extend_info"":string""""
+""action"":string""action.open.inapp""
+""data"":string""https://zalo.me/s/3270644450668432076/""
+""data_detail"":string""{""h5_src_open"":1111,""url"":""https://zalo.me/s/3270644450668432076/""}""
+}
+""icon_info"":NULL
+}
+]
+}
+}
+]
+""extend_footers"":NULL
+""footer"":NULL
+""3rd_info"":NULL
+""3rd_config"":NULL
+}"
